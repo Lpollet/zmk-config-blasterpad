@@ -6,7 +6,7 @@
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform
 
-    };
+    }
 
     default_kscan: kscan {
             compatible = "zmk,kscan-gpio-matrix";
