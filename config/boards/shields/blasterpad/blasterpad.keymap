@@ -16,12 +16,12 @@
             // |ADJUST | LCTL | LALT | LGUI | LOWR | 
 
             bindings = <
-                &kp F1    &kp F2       &kp F3     &kp F4   &kp F5
-                &kp N1    &kp N2       &kp N3       &kp N4    &kp N5
-                &kp TAB   &kp GRAVE    &kp W        &kp R    &kp T
-                &kp LCTRL  &kp A       &kp S       &kp D    &mo 1
-                &kp LSHIFT      &kp Z     &kp X    &kp LALT &kp SPACE
-                &kp B      &kp G    &kp K    &kp P &ko O
+                &kp F1     &kp F2     &kp F3   &kp F4    &kp F5
+                &kp N1     &kp N2     &kp N3   &kp N4    &kp N5
+                &kp TAB    &kp GRAVE  &kp W    &kp R     &kp T
+                &kp LCTRL  &kp A      &kp S    &kp D     &mo 1
+                &kp LSHIFT &kp Z      &kp X    &kp LALT  &kp SPACE
+                &kp B      &kp G      &kp K    &kp P     &kp O
             >;
         };
 
@@ -33,12 +33,12 @@
             // |       |  F7  |  F8  |  F9  |  F10 |
             // |       |      |      |      |      |
             bindings = <
-                &kp ESC   &kp F2   &kp F3   &kp F4   &kp F5
-                &kp TILDE &kp EXCL &kp AT   &kp HASH &kp DLLR
-                &trans    &kp F1   &kp F2   &kp F3   &kp F4
-                &trans    &kp F7   &kp F8   &kp F9   &mo 1
-                &trans    &trans   &trans   &trans    &trans
-                &bt BT_SEL 0       &bt BT_SEL 1    &bt BT_CLR   &bt BT_CLR &trans
+                &kp ESC        &kp F2         &kp F3       &kp F4       &kp F5
+                &kp TILDE      &kp EXCL       &kp AT       &kp HASH     &kp DLLR
+                &trans         &kp F1         &kp F2       &kp F3       &kp F4
+                &trans         &kp F7         &kp F8       &kp F9       &mo 1
+                &trans         &trans         &trans       &trans       &trans
+                &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_CLR   &bt BT_CLR   &trans
             >;
         };
     };
