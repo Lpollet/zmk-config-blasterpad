@@ -1,0 +1,6 @@
+if SHIELD_BLASTERPAD
+
+config ZMK_KEYBOARD_NAME
+    default "blasterpad"
+
+endif

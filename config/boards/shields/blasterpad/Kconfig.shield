@@ -1,0 +1,2 @@
+config SHIELD_BLASTERPAD
+    def_bool $(shields_list_contains, blasterpad)
